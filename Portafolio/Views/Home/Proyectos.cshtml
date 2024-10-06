@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Proyecto>
+@{
+	ViewData["Title"] = "Proyectos";
+}
+
+<!--
+
+Vista Proyectos:
+
+	1 - Se llega desde el Navbar que esta en el _Layout
+
+		<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Proyectos">Proyectos</a>
+
+		Llama a la Accion Proyectos del controlador Home:
+
+		public IActionResult Proyectos()
+			{
+				var proyectos = IRepositorioProyectos.ObtenerProyectos();
+				return View(proyectos);
+			}
+	
+		Se le pasa un Modelo tipo List de Proyectos
+
+		No hay ningún problema en que ObtenerProyectos devuelva una List y la vista acepte un IEnumerable
+		Aquí es donde el polimorfismo de interfaces de C# es útil.
+
+	2 - Se llama a la vista parcial _ListadoProyectos, pasandole como modelo el Modelo de esta Vista
+
+
+-->
+
+<div class="container">
+	<h1>Mis proyectos</h1>
+	<p>Aqui encontraras todos los proyectos en los que he trabajado</p>
+</div>
+
+<partial name="_ListadoProyectos" model="Model"/>

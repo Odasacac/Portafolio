@@ -1,0 +1,33 @@
+﻿<!--
+	Sin mucho misterio, un HTML con Bootstrap
+
+	Lo interesante es la imagen, la cual requiere el id=foto
+	Lo mismo pasa con el segundo h1, que requiere la clase seccion-bienvenida
+	
+	Para ello, en la carpeta css (wwwroot/css) se crea un nuevo archivo css
+	En este caso llamado custom.css
+	Y ahi se codifica el estilo
+
+	Pero claro, hay que hacer referencia a ese archivo css
+	Esto se hace en el archivo _Layout en el head
+
+-->
+
+<div class="text-center">
+
+	<h1 class="display-4">Soy Carlos Casado desde Vista Parcial</h1>
+	
+
+
+	<h2>Soy un desarrollador fullstack especializado en tecnologias .NET y JavaScript</h2>
+	<img id="foto" src="~/img/OIP.jpg" alt="Foto de ordenador" />
+
+	<div class="row justify-content-center text-center bg-primary">
+		<div class="col col-md-7 seccion-bienvenida">
+			<h1>Te doy la bienvenida a mi portafolio</h1>
+			<p>Curriculum basicamente</p>
+		</div>
+
+	</div>
+
+</div>

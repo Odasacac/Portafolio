@@ -1,0 +1,56 @@
+﻿@model HomeIndexViewModel
+
+<!--Esto de arroba lo que sea es para indicar que es codigo de C#-->
+@{
+	//De hecho hasta los comentarios se ponen como en C#
+	ViewData["Title"] = "Hola, soy el titulo";
+	//Esto lo que hace es que el titulo de esta Vista sea, en este caso,: Hola, soy el titulo
+
+	//Ademas, pueden hacerse muchas cosas aqui, por ejemplo:
+
+	string pruebaMetodo = "El metodo toUpper()";
+
+	string convertirEnMayusculas (string valor)
+	{
+		return valor.ToUpper() + " funciona";
+	}
+
+	//Y ahora esto usarlo en el HTML de fuera de este arroba{}
+}
+
+<h1>Vamos a probar que: @convertirEnMayusculas(pruebaMetodo)</h1>
+
+<!--
+	Vale, la Vista Index
+	Esto ya esta desarrollado y lo que se muestran son las vistas parciales
+	Es decir, que en lugar de tenerlo todo aqui puesto, lo tenemos compartimentado
+	En este caso, tres vistas parciales, vamos a ir una por una
+	Todas se encuentran en Views/Home
+
+	Las dos primeras sin mas, un HTML con Bootstrap, pero miralo que hay cosas interesantes
+-->
+<partial name="_Presentacion"/>
+
+<partial name="_Habilidades"/>
+
+<!--
+
+Esta tiene mas chicha, ya que se le pasa una cosa llamada model
+Si te has fijado, arriba del todo hay un arrobamodel
+Eso quiere decir que esta Vista (Index) recibira un objeto tipo HomeIndexViewModel
+Se usa para pasar informacion entre Vistas
+
+Ahora veremos que es el HomeIndexViewModel
+Lo importante es que a la vista parcial _Proyectos se le pasa el atributo Proyectos del modelo recibido
+Es decir, el atributo Proyectos del objeto tipo HomeIndexViewModel que se le pasa al llamar a esta Vista (Index)
+
+Para hacer esto, vamos a hacer el primer modelo
+Models/Proyecto y Models/HomeIndexViewModel
+
+Y ahora, claro, se le envia a _Proyectos el atributo Proyectos del objeto HomeIndexViewModel, ue es el IEnumerable de Proyectos
+Esto es porque en esa vista se van a mostrar cada uno de los proyectos, por eso se envia como una lista
+Si solo quisieramos enviar un proyecto se enviaria como un objeto directamente
+
+-->
+
+<partial name="_Proyectos" model="Model.Proyectos"/>

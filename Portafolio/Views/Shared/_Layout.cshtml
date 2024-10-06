@@ -1,0 +1,103 @@
+﻿<!--
+
+    Bueno, la carpeta Shared es una carpeta que no pertenece a ningun Controlador en especifico
+    Aqui se colocan los elementos compartidos de las vistas
+
+    Dentro de esa carpeta, tenemos el archivo _Layout, que es este
+
+    Aqui se encuentra, por ejemplo el menu superior y el pie de pagina de la aplicacion
+    Son elementos comunes a las vistas, pero no se encuentran en ellas
+
+    En el body/header esta el navbar ya diseñado, con los botones que redirigen a acciones de componentes
+
+    asp-controller="Home" asp-action="Index"
+
+    Controlador Home, accion Index
+
+    Despues del header, tenemos un RenderBody, que es donde se renderiza el contenido de la Vista 
+
+    Y finalmente el footer, que llama a la accion Privacy del controlador Home
+
+    ¿Que significa esto?
+
+    Que el orden en el que se van a mostrar va a ser:
+
+    1º - header
+    2º - Vista
+    3º - footer
+
+    Tambien importante, referenciamos el archivo css que queremos en las Vistas
+    En el head
+        <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    El asp-append-version anexa un String a la url del css, por si este cambiase para no tener una version desactualizada del css
+
+
+
+
+    ¿Como se configura el Layout? Es decir, ¿donde dice que sea este Layout el que se use?
+    En un archivo llamado _ViewStart
+    Views/Shared/_ViewStart.cshtml
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portafolio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Portafolio.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Portafolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Portafolio - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

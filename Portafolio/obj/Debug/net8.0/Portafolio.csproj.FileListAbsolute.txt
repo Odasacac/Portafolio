@@ -1,0 +1,60 @@
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\appsettings.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.staticwebassets.runtime.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.exe
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.deps.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.runtimeconfig.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.dll
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.pdb
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.AssemblyInfoInputs.cache
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.AssemblyInfo.cs
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.csproj.CoreCompileInputs.cache
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.RazorAssemblyInfo.cache
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.RazorAssemblyInfo.cs
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.Portafolio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.build.Portafolio.props
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Portafolio.props
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Portafolio.props
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\scopedcss\bundle\Portafolio.styles.css
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\scopedcss\projectbundle\Portafolio.bundle.scp.css
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.dll
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\refint\Portafolio.dll
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.pdb
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.genruntimeconfig.cache
+C:\Users\ccasado\Documents\WorkSpace NET\Portafolio\Portafolio\obj\Debug\net8.0\ref\Portafolio.dll
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\appsettings.Development.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\appsettings.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.staticwebassets.runtime.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.exe
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.deps.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.runtimeconfig.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.dll
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\bin\Debug\net8.0\Portafolio.pdb
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.GeneratedMSBuildEditorConfig.editorconfig
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.AssemblyInfoInputs.cache
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.AssemblyInfo.cs
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.csproj.CoreCompileInputs.cache
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.MvcApplicationPartsAssemblyInfo.cache
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.RazorAssemblyInfo.cache
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.RazorAssemblyInfo.cs
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets.build.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets.development.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.Portafolio.Microsoft.AspNetCore.StaticWebAssets.props
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.build.Portafolio.props
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Portafolio.props
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Portafolio.props
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\staticwebassets.pack.json
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\scopedcss\bundle\Portafolio.styles.css
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\scopedcss\projectbundle\Portafolio.bundle.scp.css
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.dll
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\refint\Portafolio.dll
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.pdb
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\Portafolio.genruntimeconfig.cache
+X:\WorkSpaces\workspaceDotNet\Portafolio\Portafolio\obj\Debug\net8.0\ref\Portafolio.dll

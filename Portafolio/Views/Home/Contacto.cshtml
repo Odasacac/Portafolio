@@ -1,0 +1,41 @@
+﻿
+@{
+	ViewData["Title"] = "Contacto";
+}
+
+
+<!--
+	
+	Con el formulario vamos a ver como pasar informacion de la Vista a una accion de un Controlador
+	Se hace con un HttpPost
+	
+	Para hacer un formulario se usa la etiqueta <form>
+	Que ya lleva asp-controller y el asp-action
+	Que basicamente indica hacia que Action de que Controlador queremos enviar la informacion
+	Action Contacto del Controlador Home en este caso
+	asp-action="Contacto" indica de que se va a realizar una petición POST
+
+	Se hace el formulario y vamos a esa Action para verlo
+-->
+
+
+
+
+<h1>Formulario de contacto</h1>
+
+<form asp-controller="Home" asp-action="Contacto">
+	<div class=" mb-3">
+		<label class="form-label">Nombre</label>
+		<input type="text" class="form-control" name="nombre" placeholder="Fulano de tal"/>
+	</div>
+	<div class=" mb-3">
+		<label class="form-label">Email</label>
+		<input type="email" class="form-control" name="email" placeholder="full@ano.dtal" />
+	</div>
+	<div class=" mb-3">
+		<label class="form-label">Mensaje</label>
+		<textarea type="text" class="form-control" name="mensaje" placeholder="Mensaje" rows="3"></textarea>
+	<div class=" mb-3">
+		<button type="submit" class="btn btn-primary">Enviar</button>
+	</div>
+</form>

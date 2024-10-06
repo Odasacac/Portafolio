@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\WorkSpaces\\workspaceDotNet\\Portafolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC5E727-C9DB-45CA-9F9F-99553928B7D1}|Portafolio\\Portafolio.csproj|x:\\workspaces\\workspacedotnet\\portafolio\\portafolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC5E727-C9DB-45CA-9F9F-99553928B7D1}|Portafolio\\Portafolio.csproj|solutionrelative:portafolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC5E727-C9DB-45CA-9F9F-99553928B7D1}|Portafolio\\Portafolio.csproj|x:\\workspaces\\workspacedotnet\\portafolio\\portafolio\\explicaciondelproyecto\\explicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC5E727-C9DB-45CA-9F9F-99553928B7D1}|Portafolio\\Portafolio.csproj|solutionrelative:portafolio\\explicaciondelproyecto\\explicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Explicacion.cs",
+              "DocumentMoniker": "X:\\WorkSpaces\\workspaceDotNet\\Portafolio\\Portafolio\\ExplicacionDelProyecto\\Explicacion.cs",
+              "RelativeDocumentMoniker": "Portafolio\\ExplicacionDelProyecto\\Explicacion.cs",
+              "ToolTip": "X:\\WorkSpaces\\workspaceDotNet\\Portafolio\\Portafolio\\ExplicacionDelProyecto\\Explicacion.cs",
+              "RelativeToolTip": "Portafolio\\ExplicacionDelProyecto\\Explicacion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:36:25.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "X:\\WorkSpaces\\workspaceDotNet\\Portafolio\\Portafolio\\Program.cs",
+              "RelativeDocumentMoniker": "Portafolio\\Program.cs",
+              "ToolTip": "X:\\WorkSpaces\\workspaceDotNet\\Portafolio\\Portafolio\\Program.cs",
+              "RelativeToolTip": "Portafolio\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:36:09.319Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
